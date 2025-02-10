@@ -26,7 +26,7 @@ To check conditions we use **#expect** macro
 
 ![4](https://github.com/ceboolion/SwiftSyllabus/blob/main/SwiftTesting/Images/4.png)
 
-### When you want to stop earlier when the expectation fails we can use **#required** macro
+### When you want to stop earlier when the expectation fails we can use **#require** macro
 
 ![5](https://github.com/ceboolion/SwiftSyllabus/blob/main/SwiftTesting/Images/5.png)
 
