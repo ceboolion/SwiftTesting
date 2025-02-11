@@ -221,4 +221,15 @@ to convert it to an expression that can be awaited.
 ```
 ![36](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/36.jpg)
 
+```
+Invokes a callback more than once
+```
+![37](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/37.jpg)
+
+```
+To avoid concurrency issue use - confirmation 
+```
+![38](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/38.jpg)
+
+
 [< BACK](https://github.com/ceboolion/SwiftTesting)
