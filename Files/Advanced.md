@@ -199,4 +199,26 @@ so you should first consider refactoring your test code,
 whenever possible, to run in parallel.
 ```
 
+### ASYNCHROMOUS CONDITIONS
+```
+When writing concurrent test code,
+you can use the same concurrency features in Swift as you would in your production code.
+```
+![34](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/34.jpg)
+
+```
+Some code, especially older code written in C or Objective-C,
+uses completion handlers to signal the end of an asynchronous operation.
+This code will run after the test function returns,
+and you won't be able to verify the function succeeded.
+```
+![35](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/35.jpg)
+
+```
+If the code you're testing uses a completion handler and an async overload is NOT available,
+you can instead use withCheckedContinuation or withCheckedThrowingContinuation
+to convert it to an expression that can be awaited.
+```
+![36](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/36.jpg)
+
 [< BACK](https://github.com/ceboolion/SwiftTesting)
