@@ -158,6 +158,45 @@ See all tags
 ![30](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/30.jpg)
 
 ## TESTING IN PARALLEL
+```
+Parallel testing is enabled by default in Swift Testing,
+so you can start taking advantage of these features with no extra code.
+For the first time, you can run parallel tests on all physical devices,
+bringing all these great advantages to even more tests!
+```
 
+```
+Tests run one after another in serial testing.
+If you've used XCTest before, this is how it runs tests by default.
+
+This is in contrast to parallel testing, where tests execute concurrently.
+You gain several advantages when your tests run in parallel.
+```
+![31](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/31.jpg)
+
+```
+First, execution time will be reduced, which is crucial in CI where every minute counts.
+This also means a faster turnaround to get your results.
+Swift Testing runs test functions in parallel by default, regardless of whether they are synchronous or asynchronous.
+This is a notable difference from XCTest, which only supports parallelization using multiple processes,
+each running one test at a time.
+```
+
+```
+Let's look at an example. I have two tests: in the first one, I bake a cupcake, and in the second one I eat it.
+
+If these tests always run in order and run one after the other,
+then I'll always have a cupcake ready for the second test because it was baked in the first test. That wasn't intentional!
+If the tests run in parallel, then the second test's dependency on the first will be exposed at runtime and I'll be able to fix it.
+```
+![32](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/32.jpg)
+
+### RUNNING TESTS SERIALLY
+![33](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/33.jpg)
+```
+These tests will lose the advantages of being parallel,
+so you should first consider refactoring your test code,
+whenever possible, to run in parallel.
+```
 
 [< BACK](https://github.com/ceboolion/SwiftTesting)
