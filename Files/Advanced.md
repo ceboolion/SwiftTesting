@@ -43,8 +43,12 @@ Task will be run and we will be notfied about compilation errors - it won't be c
 
 ### MULTIPLE CHECKS
 ```
-WHen our test consists of many checks, that we can use for some of them withKnownIssue which allow us to run test without failure and fix other bug later compiling all tests successfuly 
+When our test consists of many checks, we can use withKnownIssue for some of them. This allows us to run the test without failures and fix other bugs later while compiling all tests successfully.
 ```
+![10](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/10.jpg)
+
+### CUSTOM TEST DESCRIPTIONS
+![11](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/11.jpg)
 
 
 [< BACK](https://github.com/ceboolion/SwiftTesting)
