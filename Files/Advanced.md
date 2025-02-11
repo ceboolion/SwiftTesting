@@ -130,4 +130,34 @@ We can also use the Swift standard library's zip function to match up pairs of i
 ## ORGANIZING TESTS
 For basic organization check [Swift Testing Basics](https://github.com/ceboolion/SwiftTesting/tree/main/Files/Basics.md)
 
+```
+By adding sub suites, you can reflect this organization in the tests themselves,
+and make relationships between these groups of tests, more obvious.
+```
+![26](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/26.jpg)
+
+```
+Tags are another trait that help you organize your tests.
+A complex package or project may contain hundreds or thousands of tests and suites.
+```
+![27](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/27.jpg)
+
+```
+Multiple TAGS
+```
+![28](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/28.jpg)
+
+```
+Searching by the TAG
+```
+![29](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/29.jpg)
+
+```
+See all tags
+```
+![30](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/30.jpg)
+
+## TESTING IN PARALLEL
+
+
 [< BACK](https://github.com/ceboolion/SwiftTesting)
