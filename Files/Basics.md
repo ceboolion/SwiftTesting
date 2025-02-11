@@ -22,7 +22,7 @@ To check conditions we use **#expect** macro
 
 ![2](https://github.com/ceboolion/SwiftTesting/blob/main/Files/Images/2.png)
 
-![3](https://github.com/ceboolion/SwiftTesting/blob/main/Files/Images/Images/3.png)
+![3](https://github.com/ceboolion/SwiftTesting/blob/main/Files/Images/3.png)
 
 ![4](https://github.com/ceboolion/SwiftTesting/blob/main/Files/Images/4.png)
 
