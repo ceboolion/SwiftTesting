@@ -4,5 +4,6 @@
 
 ## EXPECTATIONS
 ![2](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/2.jpg)
+![3](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/3.jpg)
 
 [< BACK](https://github.com/ceboolion/SwiftTesting)
