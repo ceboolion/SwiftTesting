@@ -107,4 +107,27 @@ This allows you to retry individual failing test cases without needing to re-run
 ```
 ![19](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/19.jpg)
 
+```
+Any sendable collection, including arrays, dictionaries, ranges, and more can be passed to the test attribute.
+```
+![22](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/22.jpg)
+
+### PARAMETRIZED TEST WITH 2 ARGUMENTS
+```
+Test functions in Swift Testing can accept multiple inputs,
+and you can add another argument to this test by simply appending it after the first argument.
+```
+![23](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/23.jpg)
+
+![24](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/24.jpg)
+
+```
+To help control this exponential growth, test functions accept a maximum of two collections.
+We can also use the Swift standard library's zip function to match up pairs of inputs that should go together.
+```
+![25](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/25.jpg)
+
+## ORGANIZING TESTS
+For basic organization check [Swift Testing Basics](https://github.com/ceboolion/SwiftTesting/tree/main/Files/Basics.md)
+
 [< BACK](https://github.com/ceboolion/SwiftTesting)
