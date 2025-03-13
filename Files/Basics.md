@@ -69,6 +69,7 @@ To add a custom display name we can add a description for the @Test:
 ![16](https://github.com/ceboolion/SwiftTesting/blob/main/Files/Images/16.png)
 
 ![17](https://github.com/ceboolion/SwiftTesting/blob/main/Files/Images/17.png)
+``` When the entire body of a test can only run on certain OS versions, you can place the @available(...) attribute on that test to control which versions it will run on. Use the @available(...) attribute rather than checking at runtime using #available. The @available(...) attribute allows the testing library to know that a test has an OS version condition, so this can be reflected in the results more accurately. ```
 
 ### TESTS WITH COMMON CHARACTERISTICS
 
