@@ -231,5 +231,9 @@ To avoid concurrency issue use - confirmation
 ```
 ![38](https://github.com/ceboolion/SwiftTesting/blob/main/Files/ImagesAdvanced/38.jpg)
 
+```
+How to test with Combine 
+```
+[https://lumley.io/blogs/swift-testing-with-combine/](https://lumley.io/blogs/swift-testing-with-combine/)
 
 [< BACK](https://github.com/ceboolion/SwiftTesting)
